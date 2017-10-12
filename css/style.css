@@ -453,7 +453,7 @@ body >header a {
 }
 #textlogo h1.site-name {
   width: 86%;
-  font-family: "covered_by_your_graceregular";
+  font-family: cursive;
   font-size: 140%;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -508,7 +508,6 @@ body >header a {
 header nav {
   float: left;
   width: 100%;
-  font-size: 112.5%;
   padding-top: 0.5em;
   max-height: 0.01em;
   -webkit-transition: max-height 1s ease-out;
@@ -529,6 +528,9 @@ header nav {
     margin-top: 1em;
     max-height: none;
   }
+}
+header nav font-size font-size+12.5 {
+  font-family: cursive;
 }
 @media only screen and (min-width: 1024px) {
   header nav ul {
