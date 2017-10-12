@@ -91,7 +91,7 @@ a img {
 }
 /* custom Font*/
 @font-face {
-  font-family: "covered_by_your_graceregular";
+  font-family: "covered_by_your_graceregular", cursive;
   font-weight: normal;
   font-style: normal;
   src: url("../font/coveredbyyourgrace-webfont.eot");
@@ -120,7 +120,7 @@ a img {
 body {
   background: #ddd;
 /*background-image url('/img/bg.jpg')*/
-  font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif, cursive;
   font-size: 100%;
   color: #817c7c;
   line-height: 1.5;
@@ -453,7 +453,7 @@ body >header a {
 }
 #textlogo h1.site-name {
   width: 86%;
-  font-family: "covered_by_your_graceregular";
+  font-family: "covered_by_your_graceregular", cursive;
   font-size: 140%;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -472,15 +472,16 @@ body >header a {
 #textlogo h2.blog-motto {
   font-size: 0.7em;
   font-weight: normal;
+  font-family: "covered_by_your_graceregular", cursive;
 }
 @media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
-    font-size: 100%;
+    font-size: 120%;
   }
 }
 @media only screen and (min-width: 1024px) {
   #textlogo h2.blog-motto {
-    font-size: 110%;
+    font-size: 150%;
   }
 }
 .navbar {
@@ -1976,7 +1977,7 @@ footer {
   }
 }
 .info {
-  font-family: "covered_by_your_graceregular";
+  font-family: "covered_by_your_graceregular", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 150%;
@@ -2078,7 +2079,7 @@ footer {
 .copyright {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "covered_by_your_graceregular";
+  font-family: "covered_by_your_graceregular", cursive;
   width: 100%;
   color: #fff;
   text-align: center;
