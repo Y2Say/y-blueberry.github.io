@@ -91,7 +91,7 @@ a img {
 }
 /* custom Font*/
 @font-face {
-  font-family: "covered_by_your_graceregular", cursive;
+  font-family: "covered_by_your_graceregular";
   font-weight: normal;
   font-style: normal;
   src: url("../font/coveredbyyourgrace-webfont.eot");
@@ -453,7 +453,7 @@ body >header a {
 }
 #textlogo h1.site-name {
   width: 86%;
-  font-family: "covered_by_your_graceregular", cursive;
+  font-family: "covered_by_your_graceregular";
   font-size: 140%;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -472,7 +472,7 @@ body >header a {
 #textlogo h2.blog-motto {
   font-size: 0.7em;
   font-weight: normal;
-  font-family: "covered_by_your_graceregular", cursive;
+  font-family: "covered_by_your_graceregular";
 }
 @media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
@@ -1977,7 +1977,7 @@ footer {
   }
 }
 .info {
-  font-family: "covered_by_your_graceregular", cursive;
+  font-family: "covered_by_your_graceregular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 150%;
@@ -2079,7 +2079,7 @@ footer {
 .copyright {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "covered_by_your_graceregular", cursive;
+  font-family: "covered_by_your_graceregular";
   width: 100%;
   color: #fff;
   text-align: center;
